@@ -1,0 +1,41 @@
+local Player = game.Players.LocalPlayer
+
+Player.Chatted:connect(function(cht)
+	if cht:match("/cmds") then
+		loadstring(game:HttpGet('https://pastebin.com/raw/2G50DMpu', true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "done!";
+    Text = "u did it! u typed /cmds ur so cool!!!!!!";
+})
+	elseif cht:match("/zen") then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2527, 5486, -532)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "yay teleported to zen island11!!1!!";
+    Text = "please fucking kill me i hate my life";
+})
+   	elseif cht:match("/split") then
+		loadstring(game:HttpGet('https://pastebin.com/raw/AzxTjg6t', true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ur torso has been destroyed";
+    Text = "please fucking kill me i hate my life";
+})
+   	elseif cht:match("/remotes") then
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/luatsuki/c75a272fb67bccc22bd1b6add92ee267/raw/56375f8536aeca0cc84b44032312efb0fa5b7fa0/Spy"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Loaded RemoteSpy";
+    Text = "ea sports";
+})
+   	elseif cht:match("/opgui") then
+		loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Loaded OpGui by LuckyMMB";
+    Text = "his discord is https://discord.gg/GKzJnUC";
+})
+	end
+end)
+
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Loaded Admin!";
+    Text = "Say /cmds for a list of commands";
+})
