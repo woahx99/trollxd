@@ -35,6 +35,12 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Loaded OpGui by LuckyMMB";
     Text = "his discord is https://discord.gg/GKzJnUC";
 })
+   	elseif cht:match("/inf") then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Loaded OpGui by LuckyMMB";
+    Text = "his discord is https://discord.gg/GKzJnUC";
+})
 	end
 end)
 
