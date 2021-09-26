@@ -2,10 +2,14 @@ local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
 	if cht:match("/cmds") then
-		loadstring(game:HttpGet('https://pastebin.com/raw/2G50DMpu', true))()
+		print("[1] inf -- Loads Infinite Yield FE Admin")
+print("[2] zen -- Teleports you to Zen Island")
+print("[3] split -- go into a body toughness pool before running this")
+print("[4] remotes -- Loads RemoteSpy")
+print("[5] opgui -- Loads an OP GUI by LuckyMMB")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "done!";
-    Text = "u did it! u typed /cmds ur so cool!!!!!!";
+    Text = "Press F9 or type /console to view the commands";
 })
 	elseif cht:match("/zen") then
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2527, 5486, -532)
